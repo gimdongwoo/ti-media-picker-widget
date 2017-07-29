@@ -58,7 +58,7 @@ MediaPicker.show({
   callback: callback,
   // The following are optional
   max: 10,
-  type: 'photos',
+  type: 'photos',	// or 'videos'
   titleDone: 'Done',
   maxAlertMsg: 'maximum number of images selected!'
 });
