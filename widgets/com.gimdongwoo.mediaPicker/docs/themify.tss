@@ -1,0 +1,1056 @@
+".ti-wand": {
+	text: "\ue600", font: { fontFamily: "themify" }
+}
+".ti-volume": {
+	text: "\ue601", font: { fontFamily: "themify" }
+}
+".ti-user": {
+	text: "\ue602", font: { fontFamily: "themify" }
+}
+".ti-unlock": {
+	text: "\ue603", font: { fontFamily: "themify" }
+}
+".ti-unlink": {
+	text: "\ue604", font: { fontFamily: "themify" }
+}
+".ti-trash": {
+	text: "\ue605", font: { fontFamily: "themify" }
+}
+".ti-thought": {
+	text: "\ue606", font: { fontFamily: "themify" }
+}
+".ti-target": {
+	text: "\ue607", font: { fontFamily: "themify" }
+}
+".ti-tag": {
+	text: "\ue608", font: { fontFamily: "themify" }
+}
+".ti-tablet": {
+	text: "\ue609", font: { fontFamily: "themify" }
+}
+".ti-star": {
+	text: "\ue60a", font: { fontFamily: "themify" }
+}
+".ti-spray": {
+	text: "\ue60b", font: { fontFamily: "themify" }
+}
+".ti-signal": {
+	text: "\ue60c", font: { fontFamily: "themify" }
+}
+".ti-shopping-cart": {
+	text: "\ue60d", font: { fontFamily: "themify" }
+}
+".ti-shopping-cart-full": {
+	text: "\ue60e", font: { fontFamily: "themify" }
+}
+".ti-settings": {
+	text: "\ue60f", font: { fontFamily: "themify" }
+}
+".ti-search": {
+	text: "\ue610", font: { fontFamily: "themify" }
+}
+".ti-zoom-in": {
+	text: "\ue611", font: { fontFamily: "themify" }
+}
+".ti-zoom-out": {
+	text: "\ue612", font: { fontFamily: "themify" }
+}
+".ti-cut": {
+	text: "\ue613", font: { fontFamily: "themify" }
+}
+".ti-ruler": {
+	text: "\ue614", font: { fontFamily: "themify" }
+}
+".ti-ruler-pencil": {
+	text: "\ue615", font: { fontFamily: "themify" }
+}
+".ti-ruler-alt": {
+	text: "\ue616", font: { fontFamily: "themify" }
+}
+".ti-bookmark": {
+	text: "\ue617", font: { fontFamily: "themify" }
+}
+".ti-bookmark-alt": {
+	text: "\ue618", font: { fontFamily: "themify" }
+}
+".ti-reload": {
+	text: "\ue619", font: { fontFamily: "themify" }
+}
+".ti-plus": {
+	text: "\ue61a", font: { fontFamily: "themify" }
+}
+".ti-pin": {
+	text: "\ue61b", font: { fontFamily: "themify" }
+}
+".ti-pencil": {
+	text: "\ue61c", font: { fontFamily: "themify" }
+}
+".ti-pencil-alt": {
+	text: "\ue61d", font: { fontFamily: "themify" }
+}
+".ti-paint-roller": {
+	text: "\ue61e", font: { fontFamily: "themify" }
+}
+".ti-paint-bucket": {
+	text: "\ue61f", font: { fontFamily: "themify" }
+}
+".ti-na": {
+	text: "\ue620", font: { fontFamily: "themify" }
+}
+".ti-mobile": {
+	text: "\ue621", font: { fontFamily: "themify" }
+}
+".ti-minus": {
+	text: "\ue622", font: { fontFamily: "themify" }
+}
+".ti-medall": {
+	text: "\ue623", font: { fontFamily: "themify" }
+}
+".ti-medall-alt": {
+	text: "\ue624", font: { fontFamily: "themify" }
+}
+".ti-marker": {
+	text: "\ue625", font: { fontFamily: "themify" }
+}
+".ti-marker-alt": {
+	text: "\ue626", font: { fontFamily: "themify" }
+}
+".ti-arrow-up": {
+	text: "\ue627", font: { fontFamily: "themify" }
+}
+".ti-arrow-right": {
+	text: "\ue628", font: { fontFamily: "themify" }
+}
+".ti-arrow-left": {
+	text: "\ue629", font: { fontFamily: "themify" }
+}
+".ti-arrow-down": {
+	text: "\ue62a", font: { fontFamily: "themify" }
+}
+".ti-lock": {
+	text: "\ue62b", font: { fontFamily: "themify" }
+}
+".ti-location-arrow": {
+	text: "\ue62c", font: { fontFamily: "themify" }
+}
+".ti-link": {
+	text: "\ue62d", font: { fontFamily: "themify" }
+}
+".ti-layout": {
+	text: "\ue62e", font: { fontFamily: "themify" }
+}
+".ti-layers": {
+	text: "\ue62f", font: { fontFamily: "themify" }
+}
+".ti-layers-alt": {
+	text: "\ue630", font: { fontFamily: "themify" }
+}
+".ti-key": {
+	text: "\ue631", font: { fontFamily: "themify" }
+}
+".ti-import": {
+	text: "\ue632", font: { fontFamily: "themify" }
+}
+".ti-image": {
+	text: "\ue633", font: { fontFamily: "themify" }
+}
+".ti-heart": {
+	text: "\ue634", font: { fontFamily: "themify" }
+}
+".ti-heart-broken": {
+	text: "\ue635", font: { fontFamily: "themify" }
+}
+".ti-hand-stop": {
+	text: "\ue636", font: { fontFamily: "themify" }
+}
+".ti-hand-open": {
+	text: "\ue637", font: { fontFamily: "themify" }
+}
+".ti-hand-drag": {
+	text: "\ue638", font: { fontFamily: "themify" }
+}
+".ti-folder": {
+	text: "\ue639", font: { fontFamily: "themify" }
+}
+".ti-flag": {
+	text: "\ue63a", font: { fontFamily: "themify" }
+}
+".ti-flag-alt": {
+	text: "\ue63b", font: { fontFamily: "themify" }
+}
+".ti-flag-alt-2": {
+	text: "\ue63c", font: { fontFamily: "themify" }
+}
+".ti-eye": {
+	text: "\ue63d", font: { fontFamily: "themify" }
+}
+".ti-export": {
+	text: "\ue63e", font: { fontFamily: "themify" }
+}
+".ti-exchange-vertical": {
+	text: "\ue63f", font: { fontFamily: "themify" }
+}
+".ti-desktop": {
+	text: "\ue640", font: { fontFamily: "themify" }
+}
+".ti-cup": {
+	text: "\ue641", font: { fontFamily: "themify" }
+}
+".ti-crown": {
+	text: "\ue642", font: { fontFamily: "themify" }
+}
+".ti-comments": {
+	text: "\ue643", font: { fontFamily: "themify" }
+}
+".ti-comment": {
+	text: "\ue644", font: { fontFamily: "themify" }
+}
+".ti-comment-alt": {
+	text: "\ue645", font: { fontFamily: "themify" }
+}
+".ti-close": {
+	text: "\ue646", font: { fontFamily: "themify" }
+}
+".ti-clip": {
+	text: "\ue647", font: { fontFamily: "themify" }
+}
+".ti-angle-up": {
+	text: "\ue648", font: { fontFamily: "themify" }
+}
+".ti-angle-right": {
+	text: "\ue649", font: { fontFamily: "themify" }
+}
+".ti-angle-left": {
+	text: "\ue64a", font: { fontFamily: "themify" }
+}
+".ti-angle-down": {
+	text: "\ue64b", font: { fontFamily: "themify" }
+}
+".ti-check": {
+	text: "\ue64c", font: { fontFamily: "themify" }
+}
+".ti-check-box": {
+	text: "\ue64d", font: { fontFamily: "themify" }
+}
+".ti-camera": {
+	text: "\ue64e", font: { fontFamily: "themify" }
+}
+".ti-announcement": {
+	text: "\ue64f", font: { fontFamily: "themify" }
+}
+".ti-brush": {
+	text: "\ue650", font: { fontFamily: "themify" }
+}
+".ti-briefcase": {
+	text: "\ue651", font: { fontFamily: "themify" }
+}
+".ti-bolt": {
+	text: "\ue652", font: { fontFamily: "themify" }
+}
+".ti-bolt-alt": {
+	text: "\ue653", font: { fontFamily: "themify" }
+}
+".ti-blackboard": {
+	text: "\ue654", font: { fontFamily: "themify" }
+}
+".ti-bag": {
+	text: "\ue655", font: { fontFamily: "themify" }
+}
+".ti-move": {
+	text: "\ue656", font: { fontFamily: "themify" }
+}
+".ti-arrows-vertical": {
+	text: "\ue657", font: { fontFamily: "themify" }
+}
+".ti-arrows-horizontal": {
+	text: "\ue658", font: { fontFamily: "themify" }
+}
+".ti-fullscreen": {
+	text: "\ue659", font: { fontFamily: "themify" }
+}
+".ti-arrow-top-right": {
+	text: "\ue65a", font: { fontFamily: "themify" }
+}
+".ti-arrow-top-left": {
+	text: "\ue65b", font: { fontFamily: "themify" }
+}
+".ti-arrow-circle-up": {
+	text: "\ue65c", font: { fontFamily: "themify" }
+}
+".ti-arrow-circle-right": {
+	text: "\ue65d", font: { fontFamily: "themify" }
+}
+".ti-arrow-circle-left": {
+	text: "\ue65e", font: { fontFamily: "themify" }
+}
+".ti-arrow-circle-down": {
+	text: "\ue65f", font: { fontFamily: "themify" }
+}
+".ti-angle-double-up": {
+	text: "\ue660", font: { fontFamily: "themify" }
+}
+".ti-angle-double-right": {
+	text: "\ue661", font: { fontFamily: "themify" }
+}
+".ti-angle-double-left": {
+	text: "\ue662", font: { fontFamily: "themify" }
+}
+".ti-angle-double-down": {
+	text: "\ue663", font: { fontFamily: "themify" }
+}
+".ti-zip": {
+	text: "\ue664", font: { fontFamily: "themify" }
+}
+".ti-world": {
+	text: "\ue665", font: { fontFamily: "themify" }
+}
+".ti-wheelchair": {
+	text: "\ue666", font: { fontFamily: "themify" }
+}
+".ti-view-list": {
+	text: "\ue667", font: { fontFamily: "themify" }
+}
+".ti-view-list-alt": {
+	text: "\ue668", font: { fontFamily: "themify" }
+}
+".ti-view-grid": {
+	text: "\ue669", font: { fontFamily: "themify" }
+}
+".ti-uppercase": {
+	text: "\ue66a", font: { fontFamily: "themify" }
+}
+".ti-upload": {
+	text: "\ue66b", font: { fontFamily: "themify" }
+}
+".ti-underline": {
+	text: "\ue66c", font: { fontFamily: "themify" }
+}
+".ti-truck": {
+	text: "\ue66d", font: { fontFamily: "themify" }
+}
+".ti-timer": {
+	text: "\ue66e", font: { fontFamily: "themify" }
+}
+".ti-ticket": {
+	text: "\ue66f", font: { fontFamily: "themify" }
+}
+".ti-thumb-up": {
+	text: "\ue670", font: { fontFamily: "themify" }
+}
+".ti-thumb-down": {
+	text: "\ue671", font: { fontFamily: "themify" }
+}
+".ti-text": {
+	text: "\ue672", font: { fontFamily: "themify" }
+}
+".ti-stats-up": {
+	text: "\ue673", font: { fontFamily: "themify" }
+}
+".ti-stats-down": {
+	text: "\ue674", font: { fontFamily: "themify" }
+}
+".ti-split-v": {
+	text: "\ue675", font: { fontFamily: "themify" }
+}
+".ti-split-h": {
+	text: "\ue676", font: { fontFamily: "themify" }
+}
+".ti-smallcap": {
+	text: "\ue677", font: { fontFamily: "themify" }
+}
+".ti-shine": {
+	text: "\ue678", font: { fontFamily: "themify" }
+}
+".ti-shift-right": {
+	text: "\ue679", font: { fontFamily: "themify" }
+}
+".ti-shift-left": {
+	text: "\ue67a", font: { fontFamily: "themify" }
+}
+".ti-shield": {
+	text: "\ue67b", font: { fontFamily: "themify" }
+}
+".ti-notepad": {
+	text: "\ue67c", font: { fontFamily: "themify" }
+}
+".ti-server": {
+	text: "\ue67d", font: { fontFamily: "themify" }
+}
+".ti-quote-right": {
+	text: "\ue67e", font: { fontFamily: "themify" }
+}
+".ti-quote-left": {
+	text: "\ue67f", font: { fontFamily: "themify" }
+}
+".ti-pulse": {
+	text: "\ue680", font: { fontFamily: "themify" }
+}
+".ti-printer": {
+	text: "\ue681", font: { fontFamily: "themify" }
+}
+".ti-power-off": {
+	text: "\ue682", font: { fontFamily: "themify" }
+}
+".ti-plug": {
+	text: "\ue683", font: { fontFamily: "themify" }
+}
+".ti-pie-chart": {
+	text: "\ue684", font: { fontFamily: "themify" }
+}
+".ti-paragraph": {
+	text: "\ue685", font: { fontFamily: "themify" }
+}
+".ti-panel": {
+	text: "\ue686", font: { fontFamily: "themify" }
+}
+".ti-package": {
+	text: "\ue687", font: { fontFamily: "themify" }
+}
+".ti-music": {
+	text: "\ue688", font: { fontFamily: "themify" }
+}
+".ti-music-alt": {
+	text: "\ue689", font: { fontFamily: "themify" }
+}
+".ti-mouse": {
+	text: "\ue68a", font: { fontFamily: "themify" }
+}
+".ti-mouse-alt": {
+	text: "\ue68b", font: { fontFamily: "themify" }
+}
+".ti-money": {
+	text: "\ue68c", font: { fontFamily: "themify" }
+}
+".ti-microphone": {
+	text: "\ue68d", font: { fontFamily: "themify" }
+}
+".ti-menu": {
+	text: "\ue68e", font: { fontFamily: "themify" }
+}
+".ti-menu-alt": {
+	text: "\ue68f", font: { fontFamily: "themify" }
+}
+".ti-map": {
+	text: "\ue690", font: { fontFamily: "themify" }
+}
+".ti-map-alt": {
+	text: "\ue691", font: { fontFamily: "themify" }
+}
+".ti-loop": {
+	text: "\ue692", font: { fontFamily: "themify" }
+}
+".ti-location-pin": {
+	text: "\ue693", font: { fontFamily: "themify" }
+}
+".ti-list": {
+	text: "\ue694", font: { fontFamily: "themify" }
+}
+".ti-light-bulb": {
+	text: "\ue695", font: { fontFamily: "themify" }
+}
+".ti-Italic": {
+	text: "\ue696", font: { fontFamily: "themify" }
+}
+".ti-info": {
+	text: "\ue697", font: { fontFamily: "themify" }
+}
+".ti-infinite": {
+	text: "\ue698", font: { fontFamily: "themify" }
+}
+".ti-id-badge": {
+	text: "\ue699", font: { fontFamily: "themify" }
+}
+".ti-hummer": {
+	text: "\ue69a", font: { fontFamily: "themify" }
+}
+".ti-home": {
+	text: "\ue69b", font: { fontFamily: "themify" }
+}
+".ti-help": {
+	text: "\ue69c", font: { fontFamily: "themify" }
+}
+".ti-headphone": {
+	text: "\ue69d", font: { fontFamily: "themify" }
+}
+".ti-harddrives": {
+	text: "\ue69e", font: { fontFamily: "themify" }
+}
+".ti-harddrive": {
+	text: "\ue69f", font: { fontFamily: "themify" }
+}
+".ti-gift": {
+	text: "\ue6a0", font: { fontFamily: "themify" }
+}
+".ti-game": {
+	text: "\ue6a1", font: { fontFamily: "themify" }
+}
+".ti-filter": {
+	text: "\ue6a2", font: { fontFamily: "themify" }
+}
+".ti-files": {
+	text: "\ue6a3", font: { fontFamily: "themify" }
+}
+".ti-file": {
+	text: "\ue6a4", font: { fontFamily: "themify" }
+}
+".ti-eraser": {
+	text: "\ue6a5", font: { fontFamily: "themify" }
+}
+".ti-envelope": {
+	text: "\ue6a6", font: { fontFamily: "themify" }
+}
+".ti-download": {
+	text: "\ue6a7", font: { fontFamily: "themify" }
+}
+".ti-direction": {
+	text: "\ue6a8", font: { fontFamily: "themify" }
+}
+".ti-direction-alt": {
+	text: "\ue6a9", font: { fontFamily: "themify" }
+}
+".ti-dashboard": {
+	text: "\ue6aa", font: { fontFamily: "themify" }
+}
+".ti-control-stop": {
+	text: "\ue6ab", font: { fontFamily: "themify" }
+}
+".ti-control-shuffle": {
+	text: "\ue6ac", font: { fontFamily: "themify" }
+}
+".ti-control-play": {
+	text: "\ue6ad", font: { fontFamily: "themify" }
+}
+".ti-control-pause": {
+	text: "\ue6ae", font: { fontFamily: "themify" }
+}
+".ti-control-forward": {
+	text: "\ue6af", font: { fontFamily: "themify" }
+}
+".ti-control-backward": {
+	text: "\ue6b0", font: { fontFamily: "themify" }
+}
+".ti-cloud": {
+	text: "\ue6b1", font: { fontFamily: "themify" }
+}
+".ti-cloud-up": {
+	text: "\ue6b2", font: { fontFamily: "themify" }
+}
+".ti-cloud-down": {
+	text: "\ue6b3", font: { fontFamily: "themify" }
+}
+".ti-clipboard": {
+	text: "\ue6b4", font: { fontFamily: "themify" }
+}
+".ti-car": {
+	text: "\ue6b5", font: { fontFamily: "themify" }
+}
+".ti-calendar": {
+	text: "\ue6b6", font: { fontFamily: "themify" }
+}
+".ti-book": {
+	text: "\ue6b7", font: { fontFamily: "themify" }
+}
+".ti-bell": {
+	text: "\ue6b8", font: { fontFamily: "themify" }
+}
+".ti-basketball": {
+	text: "\ue6b9", font: { fontFamily: "themify" }
+}
+".ti-bar-chart": {
+	text: "\ue6ba", font: { fontFamily: "themify" }
+}
+".ti-bar-chart-alt": {
+	text: "\ue6bb", font: { fontFamily: "themify" }
+}
+".ti-back-right": {
+	text: "\ue6bc", font: { fontFamily: "themify" }
+}
+".ti-back-left": {
+	text: "\ue6bd", font: { fontFamily: "themify" }
+}
+".ti-arrows-corner": {
+	text: "\ue6be", font: { fontFamily: "themify" }
+}
+".ti-archive": {
+	text: "\ue6bf", font: { fontFamily: "themify" }
+}
+".ti-anchor": {
+	text: "\ue6c0", font: { fontFamily: "themify" }
+}
+".ti-align-right": {
+	text: "\ue6c1", font: { fontFamily: "themify" }
+}
+".ti-align-left": {
+	text: "\ue6c2", font: { fontFamily: "themify" }
+}
+".ti-align-justify": {
+	text: "\ue6c3", font: { fontFamily: "themify" }
+}
+".ti-align-center": {
+	text: "\ue6c4", font: { fontFamily: "themify" }
+}
+".ti-alert": {
+	text: "\ue6c5", font: { fontFamily: "themify" }
+}
+".ti-alarm-clock": {
+	text: "\ue6c6", font: { fontFamily: "themify" }
+}
+".ti-agenda": {
+	text: "\ue6c7", font: { fontFamily: "themify" }
+}
+".ti-write": {
+	text: "\ue6c8", font: { fontFamily: "themify" }
+}
+".ti-window": {
+	text: "\ue6c9", font: { fontFamily: "themify" }
+}
+".ti-widgetized": {
+	text: "\ue6ca", font: { fontFamily: "themify" }
+}
+".ti-widget": {
+	text: "\ue6cb", font: { fontFamily: "themify" }
+}
+".ti-widget-alt": {
+	text: "\ue6cc", font: { fontFamily: "themify" }
+}
+".ti-wallet": {
+	text: "\ue6cd", font: { fontFamily: "themify" }
+}
+".ti-video-clapper": {
+	text: "\ue6ce", font: { fontFamily: "themify" }
+}
+".ti-video-camera": {
+	text: "\ue6cf", font: { fontFamily: "themify" }
+}
+".ti-vector": {
+	text: "\ue6d0", font: { fontFamily: "themify" }
+}
+".ti-themify-logo": {
+	text: "\ue6d1", font: { fontFamily: "themify" }
+}
+".ti-themify-favicon": {
+	text: "\ue6d2", font: { fontFamily: "themify" }
+}
+".ti-themify-favicon-alt": {
+	text: "\ue6d3", font: { fontFamily: "themify" }
+}
+".ti-support": {
+	text: "\ue6d4", font: { fontFamily: "themify" }
+}
+".ti-stamp": {
+	text: "\ue6d5", font: { fontFamily: "themify" }
+}
+".ti-split-v-alt": {
+	text: "\ue6d6", font: { fontFamily: "themify" }
+}
+".ti-slice": {
+	text: "\ue6d7", font: { fontFamily: "themify" }
+}
+".ti-shortcode": {
+	text: "\ue6d8", font: { fontFamily: "themify" }
+}
+".ti-shift-right-alt": {
+	text: "\ue6d9", font: { fontFamily: "themify" }
+}
+".ti-shift-left-alt": {
+	text: "\ue6da", font: { fontFamily: "themify" }
+}
+".ti-ruler-alt-2": {
+	text: "\ue6db", font: { fontFamily: "themify" }
+}
+".ti-receipt": {
+	text: "\ue6dc", font: { fontFamily: "themify" }
+}
+".ti-pin2": {
+	text: "\ue6dd", font: { fontFamily: "themify" }
+}
+".ti-pin-alt": {
+	text: "\ue6de", font: { fontFamily: "themify" }
+}
+".ti-pencil-alt2": {
+	text: "\ue6df", font: { fontFamily: "themify" }
+}
+".ti-palette": {
+	text: "\ue6e0", font: { fontFamily: "themify" }
+}
+".ti-more": {
+	text: "\ue6e1", font: { fontFamily: "themify" }
+}
+".ti-more-alt": {
+	text: "\ue6e2", font: { fontFamily: "themify" }
+}
+".ti-microphone-alt": {
+	text: "\ue6e3", font: { fontFamily: "themify" }
+}
+".ti-magnet": {
+	text: "\ue6e4", font: { fontFamily: "themify" }
+}
+".ti-line-double": {
+	text: "\ue6e5", font: { fontFamily: "themify" }
+}
+".ti-line-dotted": {
+	text: "\ue6e6", font: { fontFamily: "themify" }
+}
+".ti-line-dashed": {
+	text: "\ue6e7", font: { fontFamily: "themify" }
+}
+".ti-layout-width-full": {
+	text: "\ue6e8", font: { fontFamily: "themify" }
+}
+".ti-layout-width-default": {
+	text: "\ue6e9", font: { fontFamily: "themify" }
+}
+".ti-layout-width-default-alt": {
+	text: "\ue6ea", font: { fontFamily: "themify" }
+}
+".ti-layout-tab": {
+	text: "\ue6eb", font: { fontFamily: "themify" }
+}
+".ti-layout-tab-window": {
+	text: "\ue6ec", font: { fontFamily: "themify" }
+}
+".ti-layout-tab-v": {
+	text: "\ue6ed", font: { fontFamily: "themify" }
+}
+".ti-layout-tab-min": {
+	text: "\ue6ee", font: { fontFamily: "themify" }
+}
+".ti-layout-slider": {
+	text: "\ue6ef", font: { fontFamily: "themify" }
+}
+".ti-layout-slider-alt": {
+	text: "\ue6f0", font: { fontFamily: "themify" }
+}
+".ti-layout-sidebar-right": {
+	text: "\ue6f1", font: { fontFamily: "themify" }
+}
+".ti-layout-sidebar-none": {
+	text: "\ue6f2", font: { fontFamily: "themify" }
+}
+".ti-layout-sidebar-left": {
+	text: "\ue6f3", font: { fontFamily: "themify" }
+}
+".ti-layout-placeholder": {
+	text: "\ue6f4", font: { fontFamily: "themify" }
+}
+".ti-layout-menu": {
+	text: "\ue6f5", font: { fontFamily: "themify" }
+}
+".ti-layout-menu-v": {
+	text: "\ue6f6", font: { fontFamily: "themify" }
+}
+".ti-layout-menu-separated": {
+	text: "\ue6f7", font: { fontFamily: "themify" }
+}
+".ti-layout-menu-full": {
+	text: "\ue6f8", font: { fontFamily: "themify" }
+}
+".ti-layout-media-right-alt": {
+	text: "\ue6f9", font: { fontFamily: "themify" }
+}
+".ti-layout-media-right": {
+	text: "\ue6fa", font: { fontFamily: "themify" }
+}
+".ti-layout-media-overlay": {
+	text: "\ue6fb", font: { fontFamily: "themify" }
+}
+".ti-layout-media-overlay-alt": {
+	text: "\ue6fc", font: { fontFamily: "themify" }
+}
+".ti-layout-media-overlay-alt-2": {
+	text: "\ue6fd", font: { fontFamily: "themify" }
+}
+".ti-layout-media-left-alt": {
+	text: "\ue6fe", font: { fontFamily: "themify" }
+}
+".ti-layout-media-left": {
+	text: "\ue6ff", font: { fontFamily: "themify" }
+}
+".ti-layout-media-center-alt": {
+	text: "\ue700", font: { fontFamily: "themify" }
+}
+".ti-layout-media-center": {
+	text: "\ue701", font: { fontFamily: "themify" }
+}
+".ti-layout-list-thumb": {
+	text: "\ue702", font: { fontFamily: "themify" }
+}
+".ti-layout-list-thumb-alt": {
+	text: "\ue703", font: { fontFamily: "themify" }
+}
+".ti-layout-list-post": {
+	text: "\ue704", font: { fontFamily: "themify" }
+}
+".ti-layout-list-large-image": {
+	text: "\ue705", font: { fontFamily: "themify" }
+}
+".ti-layout-line-solid": {
+	text: "\ue706", font: { fontFamily: "themify" }
+}
+".ti-layout-grid4": {
+	text: "\ue707", font: { fontFamily: "themify" }
+}
+".ti-layout-grid3": {
+	text: "\ue708", font: { fontFamily: "themify" }
+}
+".ti-layout-grid2": {
+	text: "\ue709", font: { fontFamily: "themify" }
+}
+".ti-layout-grid2-thumb": {
+	text: "\ue70a", font: { fontFamily: "themify" }
+}
+".ti-layout-cta-right": {
+	text: "\ue70b", font: { fontFamily: "themify" }
+}
+".ti-layout-cta-left": {
+	text: "\ue70c", font: { fontFamily: "themify" }
+}
+".ti-layout-cta-center": {
+	text: "\ue70d", font: { fontFamily: "themify" }
+}
+".ti-layout-cta-btn-right": {
+	text: "\ue70e", font: { fontFamily: "themify" }
+}
+".ti-layout-cta-btn-left": {
+	text: "\ue70f", font: { fontFamily: "themify" }
+}
+".ti-layout-column4": {
+	text: "\ue710", font: { fontFamily: "themify" }
+}
+".ti-layout-column3": {
+	text: "\ue711", font: { fontFamily: "themify" }
+}
+".ti-layout-column2": {
+	text: "\ue712", font: { fontFamily: "themify" }
+}
+".ti-layout-accordion-separated": {
+	text: "\ue713", font: { fontFamily: "themify" }
+}
+".ti-layout-accordion-merged": {
+	text: "\ue714", font: { fontFamily: "themify" }
+}
+".ti-layout-accordion-list": {
+	text: "\ue715", font: { fontFamily: "themify" }
+}
+".ti-ink-pen": {
+	text: "\ue716", font: { fontFamily: "themify" }
+}
+".ti-info-alt": {
+	text: "\ue717", font: { fontFamily: "themify" }
+}
+".ti-help-alt": {
+	text: "\ue718", font: { fontFamily: "themify" }
+}
+".ti-headphone-alt": {
+	text: "\ue719", font: { fontFamily: "themify" }
+}
+".ti-hand-point-up": {
+	text: "\ue71a", font: { fontFamily: "themify" }
+}
+".ti-hand-point-right": {
+	text: "\ue71b", font: { fontFamily: "themify" }
+}
+".ti-hand-point-left": {
+	text: "\ue71c", font: { fontFamily: "themify" }
+}
+".ti-hand-point-down": {
+	text: "\ue71d", font: { fontFamily: "themify" }
+}
+".ti-gallery": {
+	text: "\ue71e", font: { fontFamily: "themify" }
+}
+".ti-face-smile": {
+	text: "\ue71f", font: { fontFamily: "themify" }
+}
+".ti-face-sad": {
+	text: "\ue720", font: { fontFamily: "themify" }
+}
+".ti-credit-card": {
+	text: "\ue721", font: { fontFamily: "themify" }
+}
+".ti-control-skip-forward": {
+	text: "\ue722", font: { fontFamily: "themify" }
+}
+".ti-control-skip-backward": {
+	text: "\ue723", font: { fontFamily: "themify" }
+}
+".ti-control-record": {
+	text: "\ue724", font: { fontFamily: "themify" }
+}
+".ti-control-eject": {
+	text: "\ue725", font: { fontFamily: "themify" }
+}
+".ti-comments-smiley": {
+	text: "\ue726", font: { fontFamily: "themify" }
+}
+".ti-brush-alt": {
+	text: "\ue727", font: { fontFamily: "themify" }
+}
+".ti-youtube": {
+	text: "\ue728", font: { fontFamily: "themify" }
+}
+".ti-vimeo": {
+	text: "\ue729", font: { fontFamily: "themify" }
+}
+".ti-twitter": {
+	text: "\ue72a", font: { fontFamily: "themify" }
+}
+".ti-time": {
+	text: "\ue72b", font: { fontFamily: "themify" }
+}
+".ti-tumblr": {
+	text: "\ue72c", font: { fontFamily: "themify" }
+}
+".ti-skype": {
+	text: "\ue72d", font: { fontFamily: "themify" }
+}
+".ti-share": {
+	text: "\ue72e", font: { fontFamily: "themify" }
+}
+".ti-share-alt": {
+	text: "\ue72f", font: { fontFamily: "themify" }
+}
+".ti-rocket": {
+	text: "\ue730", font: { fontFamily: "themify" }
+}
+".ti-pinterest": {
+	text: "\ue731", font: { fontFamily: "themify" }
+}
+".ti-new-window": {
+	text: "\ue732", font: { fontFamily: "themify" }
+}
+".ti-microsoft": {
+	text: "\ue733", font: { fontFamily: "themify" }
+}
+".ti-list-ol": {
+	text: "\ue734", font: { fontFamily: "themify" }
+}
+".ti-linkedin": {
+	text: "\ue735", font: { fontFamily: "themify" }
+}
+".ti-layout-sidebar-2": {
+	text: "\ue736", font: { fontFamily: "themify" }
+}
+".ti-layout-grid4-alt": {
+	text: "\ue737", font: { fontFamily: "themify" }
+}
+".ti-layout-grid3-alt": {
+	text: "\ue738", font: { fontFamily: "themify" }
+}
+".ti-layout-grid2-alt": {
+	text: "\ue739", font: { fontFamily: "themify" }
+}
+".ti-layout-column4-alt": {
+	text: "\ue73a", font: { fontFamily: "themify" }
+}
+".ti-layout-column3-alt": {
+	text: "\ue73b", font: { fontFamily: "themify" }
+}
+".ti-layout-column2-alt": {
+	text: "\ue73c", font: { fontFamily: "themify" }
+}
+".ti-instagram": {
+	text: "\ue73d", font: { fontFamily: "themify" }
+}
+".ti-google": {
+	text: "\ue73e", font: { fontFamily: "themify" }
+}
+".ti-github": {
+	text: "\ue73f", font: { fontFamily: "themify" }
+}
+".ti-flickr": {
+	text: "\ue740", font: { fontFamily: "themify" }
+}
+".ti-facebook": {
+	text: "\ue741", font: { fontFamily: "themify" }
+}
+".ti-dropbox": {
+	text: "\ue742", font: { fontFamily: "themify" }
+}
+".ti-dribbble": {
+	text: "\ue743", font: { fontFamily: "themify" }
+}
+".ti-apple": {
+	text: "\ue744", font: { fontFamily: "themify" }
+}
+".ti-android": {
+	text: "\ue745", font: { fontFamily: "themify" }
+}
+".ti-save": {
+	text: "\ue746", font: { fontFamily: "themify" }
+}
+".ti-save-alt": {
+	text: "\ue747", font: { fontFamily: "themify" }
+}
+".ti-yahoo": {
+	text: "\ue748", font: { fontFamily: "themify" }
+}
+".ti-wordpress": {
+	text: "\ue749", font: { fontFamily: "themify" }
+}
+".ti-vimeo-alt": {
+	text: "\ue74a", font: { fontFamily: "themify" }
+}
+".ti-twitter-alt": {
+	text: "\ue74b", font: { fontFamily: "themify" }
+}
+".ti-tumblr-alt": {
+	text: "\ue74c", font: { fontFamily: "themify" }
+}
+".ti-trello": {
+	text: "\ue74d", font: { fontFamily: "themify" }
+}
+".ti-stack-overflow": {
+	text: "\ue74e", font: { fontFamily: "themify" }
+}
+".ti-soundcloud": {
+	text: "\ue74f", font: { fontFamily: "themify" }
+}
+".ti-sharethis": {
+	text: "\ue750", font: { fontFamily: "themify" }
+}
+".ti-sharethis-alt": {
+	text: "\ue751", font: { fontFamily: "themify" }
+}
+".ti-reddit": {
+	text: "\ue752", font: { fontFamily: "themify" }
+}
+".ti-pinterest-alt": {
+	text: "\ue753", font: { fontFamily: "themify" }
+}
+".ti-microsoft-alt": {
+	text: "\ue754", font: { fontFamily: "themify" }
+}
+".ti-linux": {
+	text: "\ue755", font: { fontFamily: "themify" }
+}
+".ti-jsfiddle": {
+	text: "\ue756", font: { fontFamily: "themify" }
+}
+".ti-joomla": {
+	text: "\ue757", font: { fontFamily: "themify" }
+}
+".ti-html5": {
+	text: "\ue758", font: { fontFamily: "themify" }
+}
+".ti-flickr-alt": {
+	text: "\ue759", font: { fontFamily: "themify" }
+}
+".ti-email": {
+	text: "\ue75a", font: { fontFamily: "themify" }
+}
+".ti-drupal": {
+	text: "\ue75b", font: { fontFamily: "themify" }
+}
+".ti-dropbox-alt": {
+	text: "\ue75c", font: { fontFamily: "themify" }
+}
+".ti-css3": {
+	text: "\ue75d", font: { fontFamily: "themify" }
+}
+".ti-rss": {
+	text: "\ue75e", font: { fontFamily: "themify" }
+}
+".ti-rss-alt": {
+	text: "\ue75f", font: { fontFamily: "themify" }
+}

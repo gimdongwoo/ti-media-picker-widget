@@ -1,0 +1,58 @@
+"#winAssetGroups": {
+  navBarHidden: true,
+  theme: 'Theme.NoActionBar',
+  backgroundColor: '#F9F9F9'
+}
+
+"#container[platform=ios]": {
+  top: "20dp"
+}
+
+"#navBar": {
+  top: "0dp",
+  left: "0dp",
+  width: Ti.UI.FILL,
+  height: "47dp",
+  backgroundColor: "#F9F9F9",
+  zIndex: 95
+}
+
+"#navTitle": {
+  "font": { "fontSize": 18, "fontWeight": "bold" },
+  "color": "black"
+}
+
+"#backBtn": {
+  top: "0dp",
+  left: "0dp",
+  width: "47dp",
+  height: "47dp",
+}
+
+"#backBtnLabel": {
+  font: { fontFamily: 'themify', fontSize: '26', fontWeight: 'bold' },
+  color: '#007AFF',
+  text: '\ue646'
+}
+
+"#rightBtn": {
+  top: "0dp",
+  right: "0dp",
+  width: "47dp",
+  height: "47dp",
+}
+
+"#rightBtnLabel": {
+  color: '#007AFF',
+  text: 'Done',
+}
+
+"#assetsTable": {
+  top: "47dp"
+}
+
+".bottomLine": {
+  bottom: 0,
+  height: "1px",
+  backgroundColor: "#D9D8D9"
+}

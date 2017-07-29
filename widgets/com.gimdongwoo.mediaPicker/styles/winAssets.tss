@@ -1,0 +1,69 @@
+"#winAssets": {
+  navBarHidden: true,
+  theme: 'Theme.NoActionBar',
+  backgroundColor: '#F9F9F9'
+}
+
+"#container[platform=ios]": {
+  top: "20dp"
+}
+
+"#navBar": {
+  top: "0dp",
+  left: "0dp",
+  width: Ti.UI.FILL,
+  height: "47dp",
+  backgroundColor: "#F9F9F9",
+  zIndex: 95
+}
+
+"#navTitle": {
+  "font": { "fontSize": 18, "fontWeight": "bold" },
+  "color": "black"
+}
+
+"#backBtn": {
+  top: "0dp",
+  left: "0dp",
+  width: "47dp",
+  height: "47dp",
+}
+
+"#backBtnLabel": {
+  font: { fontFamily: 'themify', fontSize: '26', fontWeight: 'bold' },
+  color: '#007AFF',
+  text: '\ue64a'
+}
+
+"#rightBtn": {
+  top: "0dp",
+  right: "0dp",
+  width: "47dp",
+  height: "47dp",
+}
+
+"#rightBtnLabel": {
+  color: '#007AFF',
+  text: 'Done'
+}
+
+"#grid[platform=ios]": {
+  h: 0,
+  y: 0,
+  top: "47dp",
+  separatorStyle: Ti.UI.TABLE_VIEW_SEPARATOR_STYLE_NONE,
+  allowsSelection: false,
+}
+
+"#grid[platform=android]": {
+  top: "47dp",
+  contentWidth: 'auto',
+  showVerticalScrollIndicator: true,
+  showHorizontalScrollIndicator: false,
+}
+
+".bottomLine": {
+  bottom: 0,
+  height: "1px",
+  backgroundColor: "#D9D8D9"
+}

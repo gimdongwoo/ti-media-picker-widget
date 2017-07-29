@@ -1,0 +1,18 @@
+<Alloy>
+  <Window id="winAssets">
+    <View id="container">
+      <View id="navBar">
+        <View id="backBtn">
+          <Label id="backBtnLabel" />
+        </View>
+        <Label id="navTitle" />
+        <View id="rightBtn">
+          <Label id="rightBtnLabel" />
+        </View>
+        <View class="bottomLine" />
+      </View>
+      <TableView id="grid" platform="ios" />
+      <ScrollView id="grid" platform="android" />
+    </View>
+  </Window>
+</Alloy>

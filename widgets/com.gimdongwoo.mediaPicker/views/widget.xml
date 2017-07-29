@@ -1,0 +1,17 @@
+<Alloy>
+  <Window id="winAssetGroups">
+    <View id="container">
+      <View id="navBar">
+        <View id="backBtn">
+          <Label id="backBtnLabel" />
+        </View>
+        <Label id="navTitle" />
+        <View id="rightBtn">
+          <Label id="rightBtnLabel" />
+        </View>
+        <View class="bottomLine" />
+      </View>
+      <TableView id="assetsTable" />
+    </View>
+  </Window>
+</Alloy>
