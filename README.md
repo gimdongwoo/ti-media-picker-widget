@@ -77,7 +77,7 @@ MediaPicker.show({
 	}
 	
 	```
-5. Add the module as a dependency to your `tiapp.xml` file:
+5. Add the module as a modules to your `tiapp.xml` file:
 
 	```
 	<modules>
