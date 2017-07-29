@@ -77,6 +77,14 @@ MediaPicker.show({
 	}
 	
 	```
+5. Add the module as a dependency to your `tiapp.xml` file:
+
+	```
+	<modules>
+	  <module platform="iphone">ti.mediapicker</module>
+	  <module platform="android">ti.mediapicker</module>
+	</modules>
+	```
 
 ## Reference
 
