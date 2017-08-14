@@ -466,7 +466,7 @@ function addOverlay(iv) {
     backgroundColor: '#1c93ef',
     borderRadius: _width / 2
   }).add(new Element('Label', {
-    font: { fontFamily: 'themify', fontSize: '16', fontWeight: 'bold' },
+    font: { fontFamily: 'themify', fontSize: '16' },
     color: 'white',
     text: '\uE64C'
   }).element).addTo(iv.overlay);

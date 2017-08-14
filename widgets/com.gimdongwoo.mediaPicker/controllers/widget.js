@@ -39,7 +39,7 @@ function gotAssetGroups(e) {
         left: 0,
         backgroundColor: '#F9F9F9'
       }).add(new Element('Label', {
-        font: { fontFamily: 'themify', fontSize: '30', fontWeight: 'bold' },
+        font: { fontFamily: 'themify', fontSize: '30' },
         color: '#F9F9F9',
         text: '\uE64E'
       }).element).addTo(row);
