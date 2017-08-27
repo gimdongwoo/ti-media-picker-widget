@@ -11,7 +11,7 @@ Developed as a widget for easy use with [TiMediaPicker](https://github.com/lowb1
 
 ## ScreenShot
 
-![](./screenshot.png)
+![](https://github.com/gimdongwoo/ti-media-picker-widget/raw/master/screenshot.png)
 
 ## Demo Video
 
@@ -66,7 +66,7 @@ MediaPicker.show({
 
 ## Quick Start
 
-1. Download this repository as a ZIP file.
+1. [Download release](https://github.com/gimdongwoo/ti-media-picker-widget/releases) from this repository.
 2. Copy `widget` and `modules` to your project.
 3. Copy `themify.ttf` from `font` to `app/assets/fonts`
 4. Add the widget as a dependency to your `app/config.json` file:
