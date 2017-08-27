@@ -432,7 +432,7 @@ function setMetadata(row, i) {
         opacity: 0.75,
         height: 15,
         width: SIZE / 2,
-        font: { fontFamily: 'Helvetica Neue', fontSize: 12, fontWeight: 'bold' },
+        font: { fontFamily: 'Helvetica Neue', fontSize: '12dp', fontWeight: 'bold' },
         top: iv.top + SIZE - 15,
         left: iv.left,
         touchEnabled: false
@@ -466,7 +466,7 @@ function addOverlay(iv) {
     backgroundColor: '#1c93ef',
     borderRadius: _width / 2
   }).add(new Element('Label', {
-    font: { fontFamily: 'themify', fontSize: '16' },
+    font: { fontFamily: 'themify', fontSize: '16dp' },
     color: 'white',
     text: '\uE64C'
   }).element).addTo(iv.overlay);

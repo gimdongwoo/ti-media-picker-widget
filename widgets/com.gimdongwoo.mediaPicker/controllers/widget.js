@@ -39,7 +39,7 @@ function gotAssetGroups(e) {
         left: 0,
         backgroundColor: '#F9F9F9'
       }).add(new Element('Label', {
-        font: { fontFamily: 'themify', fontSize: '30' },
+        font: { fontFamily: 'themify', fontSize: '30dp' },
         color: '#F9F9F9',
         text: '\uE64E'
       }).element).addTo(row);
@@ -47,7 +47,7 @@ function gotAssetGroups(e) {
 
     new Element('Label', {
       text: obj.name,
-      font: { fontFamily: 'Helvetica Neue', fontSize: 16, fontWeight: 'bold' },
+      font: { fontFamily: 'Helvetica Neue', fontSize: '16dp', fontWeight: 'bold' },
       color: '#000',
       height: 55,
       left: 10,
@@ -56,7 +56,7 @@ function gotAssetGroups(e) {
 
     new Element('Label', {
       text: ' (' + obj.count + ')',
-      font: { fontFamily: 'Helvetica Neue', fontSize: 16 },
+      font: { fontFamily: 'Helvetica Neue', fontSize: '16dp' },
       color: '#000',
       height: 55,
       left: 5,

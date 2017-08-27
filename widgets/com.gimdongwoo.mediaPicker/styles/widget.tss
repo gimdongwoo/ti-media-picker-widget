@@ -30,7 +30,7 @@
 }
 
 "#backBtnLabel": {
-  font: { fontFamily: 'themify', fontSize: '26' },
+  font: { fontFamily: 'themify', fontSize: '26dp' },
   color: '#007AFF',
   text: '\ue646'
 }
