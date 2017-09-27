@@ -1,5 +1,3 @@
-'use strict';
-
 var LAVIGATION = {
   stack: [],
   callback: null,
@@ -8,8 +6,6 @@ var LAVIGATION = {
   titleDone: 'Done',
   maxAlertMsg: 'maximum number of images selected!',
   selectedItems: [],
-  android: Titanium.Platform.name === 'android',
-  ios: Titanium.Platform.name === 'iPhone OS',
   init: function init() {
     this.closeAll = this.closeAll.bind(this);
     this.selectDone = this.selectDone.bind(this);
@@ -23,7 +19,7 @@ var LAVIGATION = {
       _this.stack.pop();
     });
 
-    if (this.android) {
+    if (OS_ANDROID) {
       win.open();
     } else if (this.stack.length === 1) {
       this.navGroup = Ti.UI.iOS.createNavigationWindow({
@@ -35,12 +31,12 @@ var LAVIGATION = {
     }
   },
   closeAll: function closeAll() {
-    if (this.ios) {
-      this.navGroup.close();
-    } else {
+    if (OS_ANDROID) {
       for (var i = this.stack.length - 1; i >= 0; i--) {
         this.stack[i].close();
       }
+    } else {
+      this.navGroup.close();
     }
     this.stack = [];
   },

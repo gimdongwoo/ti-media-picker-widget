@@ -1,6 +1,5 @@
-'use strict';
-
 var MediaPickerModule = require('ti.mediapicker');
+var AvImageview = require('av.imageview');
 
 var Element = require(WPATH('element'));
 var NAVIGATION = require(WPATH('navigation'));
@@ -193,7 +192,7 @@ function loadImages(row, lzy) {
     var iv = void 0;
     if (toAdd[i].iv) {
       if (OS_ANDROID) {
-        toAdd[i].iv.setImage(toAdd[i].iv.path);
+        toAdd[i].iv.setImage('file://' + toAdd[i].iv.assetUrl);
         if (!queue && lzy && !$.grid.fastScroll) lazyLoad();
         return;
       }
@@ -206,17 +205,10 @@ function loadImages(row, lzy) {
     }
 
     if (OS_ANDROID) {
-      // Ti.Filesystem.applicationDataDirectory ?
-      var file = Ti.Filesystem.getFile(Ti.Filesystem.tempDirectory, iv.id + '.png_');
-      if (file.exists()) {
-        //Ti.API.info('from cache ' + file.nativePath);
-        iv.path = file.nativePath;
-        iv.setImage(file.nativePath);
-        file = null;
-        if (!queue && lzy && !$.grid.fastScroll) lazyLoad();
-        setMetadata(iv.row, iv.i);
-        return;
-      }
+      iv.setImage('file://' + iv.assetUrl);
+      if (!queue && lzy && !$.grid.fastScroll) lazyLoad();
+      setMetadata(iv.row, iv.i);
+      return;
     }
 
     queue++;
@@ -225,33 +217,15 @@ function loadImages(row, lzy) {
       success: function success(e) {
         queue--;
         if (!e.image) return;
-        if (OS_ANDROID && e.image.apiName !== 'Ti.Blob') {
-          var _file = Ti.Filesystem.getFile(Ti.Filesystem.tempDirectory, iv.id + '.png_');
-          var file2 = Ti.Filesystem.getFile('file://' + e.image);
-          var blob = file2.read();
 
-          var ar = blob.width / blob.height;
-          if (ar < 1) {
-            blob = blob.imageAsResized(SIZE, SIZE / ar).imageAsCropped({ width: SIZE, height: SIZE, x: 0, y: (SIZE / ar - SIZE) / 2 });
-          } else {
-            blob = blob.imageAsResized(SIZE * ar, SIZE).imageAsCropped({ width: SIZE, height: SIZE, x: (SIZE * ar - SIZE) / 2, y: 0 });
-          }
-          _file.write(blob);
-          iv.path = _file.nativePath;
-          iv.setImage(_file.nativePath);
-          _file = null;
-          file2 = null;
-          blob = null;
-        } else {
-          if (e.width && !assets[iv.row][iv.i].metadata.width) {
-            assets[iv.row][iv.i].metadata = { width: e.width, height: e.height };
-            if (e.duration) assets[iv.row][iv.i].metadata.duration = e.duration;
-          }
-          if (e.size) {
-            assets[iv.row][iv.i].metadata.size = e.size;
-          }
-          iv.setImage(e.image);
+        if (e.width && !assets[iv.row][iv.i].metadata.width) {
+          assets[iv.row][iv.i].metadata = { width: e.width, height: e.height };
+          if (e.duration) assets[iv.row][iv.i].metadata.duration = e.duration;
         }
+        if (e.size) {
+          assets[iv.row][iv.i].metadata.size = e.size;
+        }
+        iv.setImage(e.image);
         setMetadata(iv.row, iv.i);
 
         if (!queue && lzy && !$.grid.fastScroll) lazyLoad();
@@ -276,7 +250,8 @@ function lazyLoad() {
 // create image element
 function createIV(row, i) {
   var toAdd = assets[row];
-  var iv = Ti.UI.createImageView({
+  var iv = AvImageview.createImageView({
+    contentMode: AvImageview.CONTENT_MODE_ASPECT_FILL,
     image: null,
     top: OS_IOS ? 4 : 4 + row * (SIZE + 4),
     left: 4 + i % perrow * (SIZE + 4),
@@ -285,7 +260,8 @@ function createIV(row, i) {
     assetUrl: toAdd[i].url,
     id: toAdd[i].id,
     row: row,
-    i: i
+    i: i,
+    autorotate: true
   });
   toAdd[i].iv = iv;
 
@@ -361,36 +337,42 @@ function createIV(row, i) {
       });
       winVideo.add(activeMovie);
       winVideo.open({ fullscreen: true, barColor: 'black' });
-    } else {
-      (function (key, id) {
-        getImageByURL({
-          key: key,
-          id: id,
-          success: function success(res) {
-            var ar = res.width / res.height;
-            var screenAr = ENV.width() / ENV.height(true);
-            var width = void 0;
-            var height = void 0;
-            if (ar >= screenAr) {
-              width = ENV.width();
-              height = width / ar;
-            } else {
-              height = ENV.height(true);
-              width = height * ar;
-            }
-            var view = Ti.UI.createView({ width: Ti.UI.FILL, height: Ti.UI.FILL, backgroundColor: '#000' });
-            var imageView = Ti.UI.createImageView({ image: res.image.apiName === 'Ti.Blob' ? res.image : 'file://' + res.image, width: width, height: height, touchEnabled: false });
+      // photo
+    } else if (OS_ANDROID) {
+      var view = Ti.UI.createView({ width: Ti.UI.FILL, height: Ti.UI.FILL, backgroundColor: '#000' });
+      var imageView = Ti.UI.createImageView({ image: 'file://' + this.assetUrl, touchEnabled: false, autorotate: true });
 
-            view.addEventListener('click', function () {
-              $.winAssets.remove(view);
-              imageView = null;
-              view = null;
-            });
-            view.add(imageView);
-            $.winAssets.add(view);
-          }
-        });
-      })(this.assetUrl, this.id);
+      var _closeFn = function closeFn() {
+        $.winAssets.removeEventListener('androidback', _closeFn);
+        view.removeEventListener('click', _closeFn);
+
+        $.winAssets.remove(view);
+        imageView = null;
+        view = null;
+        _closeFn = null;
+      };
+      $.winAssets.addEventListener('androidback', _closeFn);
+      view.addEventListener('click', _closeFn);
+
+      view.add(imageView);
+      $.winAssets.add(view);
+    } else {
+      getImageByURL({
+        key: this.assetUrl,
+        id: this.id,
+        success: function success(res) {
+          var view = Ti.UI.createView({ width: Ti.UI.FILL, height: Ti.UI.FILL, backgroundColor: '#000' });
+          var imageView = Ti.UI.createImageView({ image: res.image, touchEnabled: false, autorotate: true });
+
+          view.addEventListener('click', function () {
+            $.winAssets.remove(view);
+            imageView = null;
+            view = null;
+          });
+          view.add(imageView);
+          $.winAssets.add(view);
+        }
+      });
     }
   });
   return iv;

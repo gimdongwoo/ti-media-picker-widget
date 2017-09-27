@@ -1,5 +1,3 @@
-'use strict';
-
 var MediaPickerModule = require('ti.mediapicker');
 
 var Element = require(WPATH('element'));
@@ -21,7 +19,13 @@ var LANG = {
 function gotAssetGroups(e) {
   var data = [];
   var nr = 0;
-  _.each(e.items || [], function (obj, key) {
+
+  var sortedKeys = Object.keys(e.items).sort(function (a, b) {
+    return a - b;
+  });
+
+  _.each(sortedKeys || [], function (key) {
+    var obj = e.items[key];
     var row = Ti.UI.createTableViewRow({ hasChild: true, height: 55, caption: obj.name, width: Ti.UI.FILL, layout: 'horizontal', cnt: obj.count, nr: OS_IOS ? nr : key });
 
     if (obj.count) {
@@ -29,7 +33,8 @@ function gotAssetGroups(e) {
         image: obj.image,
         width: 55,
         height: 55,
-        left: 0
+        left: 0,
+        autorotate: true
       }).addTo(row);
     } else {
       // no image

@@ -1,5 +1,3 @@
-'use strict';
-
 var Element = function Element(type, options) {
   this.element = Ti.UI['create' + type](options);
 
