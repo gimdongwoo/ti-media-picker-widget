@@ -42,7 +42,7 @@ function callback(items) {
           width: e.width,
           height: e.height
         });
-        
+
         if (items.length) iterate(items.splice(0, 1)[0]);
         else {
           // END
@@ -67,7 +67,7 @@ MediaPicker.show({
 ## Quick Start
 
 1. [Download release](https://github.com/gimdongwoo/ti-media-picker-widget/releases) from this repository.
-2. Copy `widget` and `modules` to your project.
+2. Copy `widget` and `modules` to your project (`modules` need to unzip).
 3. Copy `themify.ttf` from `font` to `app/assets/fonts`
 4. Add the widget as a dependency to your `app/config.json` file:
 
@@ -75,7 +75,7 @@ MediaPicker.show({
 	"dependencies": {
 	  "com.gimdongwoo.mediaPicker": "1.0.0"
 	}
-	
+
 	```
 5. Add the module as a modules to your `tiapp.xml` file:
 
@@ -83,6 +83,8 @@ MediaPicker.show({
 	<modules>
 	  <module platform="iphone">ti.mediapicker</module>
 	  <module platform="android">ti.mediapicker</module>
+    <module platform="iphone">av.imageview</module>
+    <module platform="android">av.imageview</module>
 	</modules>
 	```
 
@@ -93,6 +95,10 @@ MediaPicker.show({
 2. [Themify Icon Font](https://themify.me/themify-icons)
 
 ## Changelog
+
+### Version 1.1.0
+- `ImageView` is chnaged to [`av.imageview`](https://github.com/AndreaVitale/av.imageview)
+- Refactoring for Samsung Galaxy (autorotate bug)
 
 ### Version 1.0.0
 - Initial Release
