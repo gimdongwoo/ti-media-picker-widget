@@ -96,6 +96,9 @@ MediaPicker.show({
 
 ## Changelog
 
+### Version 1.1.1
+- max image selection limit's alert message bug fix
+
 ### Version 1.1.0
 - `ImageView` is chnaged to [`av.imageview`](https://github.com/AndreaVitale/av.imageview)
 - Refactoring for Samsung Galaxy (autorotate bug)

@@ -288,7 +288,7 @@ function createIV(row, i) {
         }
         NAVIGATION.selectedItems = [];
       } else if (NAVIGATION.max && NAVIGATION.selectedItems.length === NAVIGATION.max) {
-        alert(NAVIGATION.maxAlertMessage);
+        alert(NAVIGATION.maxAlertMsg);
         return;
       }
 
